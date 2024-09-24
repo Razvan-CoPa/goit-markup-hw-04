@@ -151,3 +151,7 @@ section.cards{
     font-weight: 400;
     color: #434455;
 }
+
+.hero-image {
+    background-image: url("/images/people-office1.jpg");
+}
