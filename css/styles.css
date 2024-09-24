@@ -1,0 +1,153 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 24px 156px;
+    border-bottom: 2px solid #E7E9FC;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+ul.menuItems {
+    width: 261px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+ul.menuItems a {
+    color: #2E2F42;
+}
+
+ul.contactItems {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+ul.contactItems a {
+    color: #434455;
+}
+
+.menuItems .active a {
+    color: #404BBF;
+}
+
+.menuItems .active {
+    position: relative;
+}
+
+.menuItems .active::after{
+    content: '';
+    background: #404BBF;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 6px;
+    left: 0;
+    top: 41px;
+}
+
+.filters ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 60px;
+}
+
+button {
+    color: #4D5AE5;
+    outline: none;
+    border: none;
+    background-color: #E7E9FC;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.all {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.nav-bar .menu {
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+}
+
+.filters .menu{
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+
+}
+.nav-bar {
+    height: 72px;
+    border: 1px;
+}
+
+
+.footer {
+    margin-top: 96px;
+    height: 312px;
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+
+.footer div{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 156px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 264px;
+}
+
+section.cards{
+    object-fit: cover;
+    padding-bottom: 48px;
+    gap: 24px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.cards .card{
+    height: 420px;
+    border: 1px solid #E7E9FC;
+}
+
+.card div {
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    padding: 0px 16px 0px 16px;
+}
+
+
+.cards .card footer{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
